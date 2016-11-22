@@ -6,6 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import java.util.List;
 
 
@@ -16,7 +17,7 @@ public class EpamHomePage {
     }
 
     @FindBy(linkText = "SOLUTIONS")
-    public WebElement menuSolutions;
+    private WebElement menuSolutions;
 
     public void pointCursor(WebDriver driver) {
         Actions action = new Actions(driver);
@@ -25,20 +26,17 @@ public class EpamHomePage {
     }
 
     @FindBy(css = "a[href^='/solutions/']")
-    public List<WebElement> menuItemList;
+    private List<WebElement> menuItemList;
 
-    public void returnMenuItemByText(String menuItemText) {
-//        String s2 =
+    public void clickMenuItem(String menuItemText) {
+        for (WebElement we : menuItemList) {
+            if (we.getText().equals(menuItemText)) {
+                we.click();
+                break;
+            }
+        }
 
     }
-
-    public void clickMenuItem() {
-
-
-    }
-
-
-
 
 
 }

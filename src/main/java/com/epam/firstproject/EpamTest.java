@@ -4,7 +4,7 @@ import com.epam.pom.EpamHomePage;
 import com.epam.pom.EpamOtherPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -25,10 +25,10 @@ public class EpamTest {
         driver.get(baseUrl);
     }
 
- /*   @DataProvider(name = "Test data")
+    @DataProvider(name = "Test data")
     public Object[][] createData() {
         return new Object[][]{
-                {"Core Engineering", "HomeSolutionsCore Engineering"}
+                {"Core Engineering", "HomeSolutionsCore Engineering"},
                 {"Product Development", "HomeSolutionsCore EngineeringProduct Development"},
                 {"Engineering Excellence", "HomeSolutionsCore EngineeringEngineering Excellence"},
                 {"Core Technologies", "HomeSolutionsCore EngineeringCore Technologies"},
@@ -49,19 +49,25 @@ public class EpamTest {
                 {"Commerce", "HomeSolutionsDigital EngagementCommerce"},
                 {"Mobility", "HomeSolutionsDigital EngagementMobility"}
         };
-    }*/
-
-
-    @Test//(dataProvider = "Test data")
-    public void testSolutionsMenu() throws InterruptedException {
-        EpamHomePage page = new EpamHomePage(driver);
-        page.pointCursor(driver);
-        page.clickMenuItem();
-        Assert.assertEquals("act text", "exp text", "Wrong crumbs!");
-
     }
 
 
+    @Test(dataProvider = "Test data")
+    public void testSolutionsMenu(String menuItemText, String expectedCrumbsText) throws InterruptedException {
+        EpamHomePage page = new EpamHomePage(driver);
+        page.pointCursor(driver);
+        page.clickMenuItem(menuItemText);
+        EpamOtherPage page1 = new EpamOtherPage(driver);
+        page1.assertCrumbs(expectedCrumbsText);
+
+    }
+
+    @AfterSuite
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 
 
 }

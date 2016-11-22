@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -15,9 +16,9 @@ public class EpamOtherPage {
     }
 
     @FindBy(className = "header-menu-crumb-item")
-    public List<WebElement> crumbsList;
+    private List<WebElement> crumbsList;
 
-    public String crumbsText() {
+    private String crumbsText() {
         String s1 = "";
         for (WebElement we : crumbsList) {
             s1 = s1 + we.getText();
@@ -25,8 +26,9 @@ public class EpamOtherPage {
         return s1;
     }
 
-
-
+    public void assertCrumbs(String expectedText) {
+        Assert.assertEquals(crumbsText(), expectedText, "Wrong crumbs!");
+    }
 
 
 }
