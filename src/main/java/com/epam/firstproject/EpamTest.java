@@ -1,8 +1,10 @@
 package com.epam.firstproject;
 
 import com.epam.pom.EpamHomePage;
+import com.epam.pom.EpamOtherPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -19,14 +21,14 @@ public class EpamTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         baseUrl = "https://www.epam.com/";
-        driver.manage().timeouts().implicitlyWait(360, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get(baseUrl);
     }
 
-    @DataProvider(name = "Test data")
+ /*   @DataProvider(name = "Test data")
     public Object[][] createData() {
         return new Object[][]{
-                {"Core Engineering", "HomeSolutionsCore Engineering"},
+                {"Core Engineering", "HomeSolutionsCore Engineering"}
                 {"Product Development", "HomeSolutionsCore EngineeringProduct Development"},
                 {"Engineering Excellence", "HomeSolutionsCore EngineeringEngineering Excellence"},
                 {"Core Technologies", "HomeSolutionsCore EngineeringCore Technologies"},
@@ -47,14 +49,19 @@ public class EpamTest {
                 {"Commerce", "HomeSolutionsDigital EngagementCommerce"},
                 {"Mobility", "HomeSolutionsDigital EngagementMobility"}
         };
-    }
+    }*/
 
 
-    @Test(dataProvider = "Test data")
-    public void testCoreEngineeringLink(String menuText, String crumbsExpected) throws InterruptedException {
+    @Test//(dataProvider = "Test data")
+    public void testSolutionsMenu() throws InterruptedException {
         EpamHomePage page = new EpamHomePage(driver);
-        page.checkMenuItem(driver, menuText, crumbsExpected);
+        page.pointCursor(driver);
+        page.clickMenuItem();
+        Assert.assertEquals("act text", "exp text", "Wrong crumbs!");
 
     }
+
+
+
 
 }
