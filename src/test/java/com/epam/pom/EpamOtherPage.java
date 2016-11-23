@@ -15,7 +15,7 @@ public class EpamOtherPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(className = "header-menu-crumb-item")
+    @FindBy(css = "div > div > header > div > div > div > ul  li > a")
     private List<WebElement> crumbsList;
 
     private String crumbsText() {
@@ -28,6 +28,14 @@ public class EpamOtherPage {
 
     public void assertCrumbs(String expectedText) {
         Assert.assertEquals(crumbsText(), expectedText, "Wrong crumbs!");
+    }
+
+    @FindBy(linkText = "Home")
+    private WebElement homeLink;
+
+    public void goHome() {
+        homeLink.click();
+
     }
 
 

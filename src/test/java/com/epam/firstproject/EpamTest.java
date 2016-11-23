@@ -55,10 +55,10 @@ public class EpamTest {
     @Test(dataProvider = "Test data")
     public void testSolutionsMenu(String menuItemText, String expectedCrumbsText) throws InterruptedException {
         EpamHomePage page = new EpamHomePage(driver);
-        page.pointCursor(driver);
-        page.clickMenuItem(menuItemText);
-        EpamOtherPage page1 = new EpamOtherPage(driver);
+        page.pointCursor();
+        EpamOtherPage page1 = page.clickMenuItem(menuItemText);
         page1.assertCrumbs(expectedCrumbsText);
+        page1.goHome();
 
     }
 

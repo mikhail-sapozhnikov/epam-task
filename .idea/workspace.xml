@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d28d5184-0d24-428c-b038-16f5f46b2cdc" name="Default" comment="">
+    <list default="true" id="d28d5184-0d24-428c-b038-16f5f46b2cdc" name="Default" comment="new corrections">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/firstproject/EpamTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/firstproject/EpamTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/firstproject/testng.xml" afterPath="$PROJECT_DIR$/src/test/java/com/epam/firstproject/testng.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/pom/EpamHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamHomePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/pom/EpamOtherPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamOtherPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/firstproject/EpamTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/firstproject/EpamTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamHomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamOtherPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamOtherPage.java" />
     </list>
     <ignored path="FirstProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/firstproject/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EpamTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EpamTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/firstproject/EpamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="195">
+              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,25 +39,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EpamHomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pom/EpamHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="459">
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,12 +54,10 @@
       <file leaf-file-name="EpamOtherPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pom/EpamOtherPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +102,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/pom/EpamHomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firstproject/EpamTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/epam/firstproject/EpamTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/firstproject/EpamTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/firstproject/EpamTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pom/EpamOtherPage.java" />
       </list>
     </option>
   </component>
@@ -281,6 +257,10 @@
               <option name="myItemId" value="epam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -331,7 +311,7 @@
       <recent name="H:\IdeaProjects\first-project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Unnamed">
+  <component name="RunManager" selected="TestNG.H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml">
     <configuration default="false" name="&lt;default&gt; (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="FirstProject" />
@@ -733,8 +713,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.&lt;default&gt; (2)" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.&lt;default&gt; (3)" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.&lt;default&gt; (1)" />
@@ -783,39 +763,46 @@
       <option name="project" value="LOCAL" />
       <updated>1479840948041</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="corrections">
+      <created>1479885914092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1479885914092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 16h 07m 14s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 05m 04s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 16h 08m 16s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 06m 06s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 16h 10m 04s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 08m 27s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 16h 20m 31s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 10m 06s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 20h 03m 42s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 14m 12s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 20h 10m 53s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 18m 48s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 20h 18m 10s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 21m 41s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 20h 19m 42s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 23m 05s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 20h 25m 19s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 25m 34s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="H__IdeaProjects_first-project_src_main_java_com_epam_firstproject_testng_xml - 2016.11.22 at 20h 29m 04s.xml">
-      <configuration name="H:/IdeaProjects/first-project/src/main/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
+    <history-entry file="H__IdeaProjects_first-project_src_test_java_com_epam_firstproject_testng_xml - 2016.11.23 at 13h 38m 25s.xml">
+      <configuration name="H:/IdeaProjects/first-project/src/test/java/com/epam/firstproject/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -825,6 +812,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -836,7 +824,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -847,7 +835,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -868,7 +855,8 @@
     <MESSAGE value="Third commit" />
     <MESSAGE value="Remake" />
     <MESSAGE value="corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrections" />
+    <MESSAGE value="new corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="new corrections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,8 +901,6 @@
           <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -925,8 +911,6 @@
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -955,8 +939,6 @@
           <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -967,8 +949,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -997,8 +977,6 @@
           <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1009,8 +987,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1039,8 +1015,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1069,8 +1043,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1099,8 +1071,6 @@
           <caret line="16" column="84" lean-forward="false" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1129,8 +1099,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1184,45 +1152,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/pom/Epam.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pom/EpamOtherPage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pom/EpamHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="459">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pom/EpamOtherPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/firstproject/EpamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="195">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>

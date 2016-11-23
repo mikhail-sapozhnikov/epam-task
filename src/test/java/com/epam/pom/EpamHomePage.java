@@ -12,15 +12,18 @@ import java.util.List;
 
 public class EpamHomePage {
 
+    private final WebDriver driver;
+
     public EpamHomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 
     @FindBy(linkText = "SOLUTIONS")
     private WebElement menuSolutions;
 
-    public void pointCursor(WebDriver driver) {
-        Actions action = new Actions(driver);
+    public void pointCursor() {
+        Actions action = new Actions(this.driver);
         action.moveToElement(menuSolutions);
         action.perform();
     }
@@ -28,13 +31,14 @@ public class EpamHomePage {
     @FindBy(css = "a[href^='/solutions/']")
     private List<WebElement> menuItemList;
 
-    public void clickMenuItem(String menuItemText) {
+    public EpamOtherPage clickMenuItem(String menuItemText) {
         for (WebElement we : menuItemList) {
             if (we.getText().equals(menuItemText)) {
                 we.click();
                 break;
             }
         }
+        return new EpamOtherPage(this.driver);
 
     }
 
