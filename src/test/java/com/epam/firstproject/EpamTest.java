@@ -22,7 +22,7 @@ public class EpamTest {
         driver.manage().window().maximize();
         baseUrl = "https://www.epam.com/";
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.get(baseUrl);
+
     }
 
     @DataProvider(name = "Test data")
@@ -54,11 +54,11 @@ public class EpamTest {
 
     @Test(dataProvider = "Test data")
     public void testSolutionsMenu(String menuItemText, String expectedCrumbsText) throws InterruptedException {
+        driver.get(baseUrl);
         EpamHomePage page = new EpamHomePage(driver);
         page.pointCursor();
         EpamOtherPage page1 = page.clickMenuItem(menuItemText);
         page1.assertCrumbs(expectedCrumbsText);
-        page1.goHome();
 
     }
 

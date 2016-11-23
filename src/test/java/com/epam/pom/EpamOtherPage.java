@@ -11,12 +11,14 @@ import java.util.List;
 
 public class EpamOtherPage {
 
+    private final WebDriver driver;
+    @FindBy(css = "li[class='header-menu-crumb-item'] > a")
+    private List<WebElement> crumbsList;
+
     public EpamOtherPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
-
-    @FindBy(css = "div > div > header > div > div > div > ul  li > a")
-    private List<WebElement> crumbsList;
 
     private String crumbsText() {
         String s1 = "";
@@ -29,14 +31,5 @@ public class EpamOtherPage {
     public void assertCrumbs(String expectedText) {
         Assert.assertEquals(crumbsText(), expectedText, "Wrong crumbs!");
     }
-
-    @FindBy(linkText = "Home")
-    private WebElement homeLink;
-
-    public void goHome() {
-        homeLink.click();
-
-    }
-
 
 }
