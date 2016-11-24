@@ -37,7 +37,7 @@
         </pluginManagement>
     </build>
     <properties>
-        <webdriver.chrome>C:\Autotests\chromedriver\</webdriver.chrome>
+        <webdriver.chrome>C:\Autotests\chromedriver\chromedriver.exe</webdriver.chrome>
     </properties>
 
 </project>
