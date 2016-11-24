@@ -31,6 +31,9 @@
                         <systemPropertyVariables>
                             <webdriver.chrome.driver>${webdriver.chrome}</webdriver.chrome.driver>
                         </systemPropertyVariables>
+                        <suiteXmlFiles>
+                            <suiteXmlFile>H:\IdeaProjects\first-project\src\test\java\com\epam\firstproject\testng.xml</suiteXmlFile>
+                        </suiteXmlFiles>
                     </configuration>
                 </plugin>
             </plugins>

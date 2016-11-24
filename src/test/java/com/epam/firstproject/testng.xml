@@ -3,7 +3,11 @@
 <suite name="Default Suite">
     <test name="first-project">
         <classes>
-            <class name="com.epam.firstproject.EpamTest"/>
+            <class name="com.epam.firstproject.EpamTest">
+                <methods>
+                    <include name="testSolutionsMenu"/>
+                </methods>
+            </class>
         </classes>
     </test> <!-- first-project -->
 </suite> <!-- Default Suite -->
