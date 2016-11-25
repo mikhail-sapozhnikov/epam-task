@@ -57,9 +57,7 @@ public class EpamTest {
         driver.get(baseUrl);
         EpamHomePage page = new EpamHomePage(driver);
         page.pointCursor();
-        System.out.println(page.crumbsListAll.getText().replaceAll("\n", ""));
         EpamOtherPage page1 = page.clickMenuItem(menuItemText);
-        System.out.println(page1.crumbsListParent.getText().replaceAll("\n", ""));
         page1.assertCrumbs(expectedCrumbsText);
 
     }
