@@ -32,7 +32,7 @@
                             <webdriver.chrome.driver>${webdriver.chrome}</webdriver.chrome.driver>
                         </systemPropertyVariables>
                         <suiteXmlFiles>
-                            <suiteXmlFile>H:\IdeaProjects\first-project\src\test\java\com\epam\firstproject\testng.xml</suiteXmlFile>
+                            <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
@@ -40,7 +40,7 @@
         </pluginManagement>
     </build>
     <properties>
-        <webdriver.chrome>C:\Autotests\chromedriver\chromedriver.exe</webdriver.chrome>
+        <webdriver.chrome>${project.basedir}\src\test\recources\chromedriver.exe</webdriver.chrome>
     </properties>
 
 </project>

@@ -1,5 +1,6 @@
 package com.epam.pom;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,10 +14,12 @@ import java.util.List;
 public class EpamHomePage {
 
     private final WebDriver driver;
+    @FindBy(css = "div[class='submenu-wrapper'] > ul")
+    public WebElement crumbsListAll;
     @FindBy(linkText = "SOLUTIONS")
     private WebElement menuSolutions;
-    @FindBy(css = "a[href^='/solutions/']")
-    private List<WebElement> menuItemList;
+//    @FindBy(css = "a[href^='/solutions/']")
+//    private List<WebElement> menuItemList;
 
     public EpamHomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -29,13 +32,9 @@ public class EpamHomePage {
         action.perform();
     }
 
-    public EpamOtherPage clickMenuItem(String menuItemText) {
-        for (WebElement we : menuItemList) {
-            if (we.getText().equals(menuItemText)) {
-                we.click();
-                break;
-            }
-        }
+    public EpamOtherPage clickMenuItem(final String menuItemText) {
+        WebElement we = crumbsListAll.findElement(By.linkText(menuItemText));
+        we.click();
         return new EpamOtherPage(this.driver);
 
     }
